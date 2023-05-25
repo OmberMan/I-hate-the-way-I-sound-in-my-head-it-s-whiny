@@ -1,9 +1,9 @@
 [
   {
     "name": "Arstotzka",
-    "leaderName": "Communist Party of Arstotzka",
-    "adjective": "Arstotzka",
-    "startBias": ["Coast"],
+    "leaderName": "Vpedist Party of Arstotzka",
+    "adjective": "Arstotzkan",
+    "startBias": ["Plains"],
     "preferredVictoryType": "Scientific",
 
     "startIntroPart": "The government of Arstotzka uses capital punishment and forced labor. To be considered eligible for employment Arstotzkans are expected to maintain families and have at least one fellow family member alive to continue the Arstotzkan growth. Arstotzka also attracts immigrants and foreign workers. EZIC describes Arstotzka's government as tyrannical.",
@@ -14,17 +14,17 @@
     "neutralHello": "Good morning.",
     "hateHello": "What do YOU want?",
     "tradeRequest": "Can I interest you in this deal?",
-    "unique": "SIBERIAN_RICHES",
+    "uniques": ["[+100]% City Strength from defensive buildings"],
     "outerColor": [47, 79, 79],
     "innerColor": [95, 158, 160],
     "cities": ["Paradizna","East Grestin","Orvich-Vonor","Nirsk"]
   },
   {
     "name": "Kolechia",
-    "leaderName": "Party United Kolechia",
-    "adjective": "Kolechia",
-    "startBias": ["Hills"],
-    "preferredVictoryType": "Domination",
+    "leaderName": "Party Free Kolechia",
+    "adjective": "Kolechian",
+    "startBias": ["Hills", "Plains"],
+    "preferredVictoryType": "Neutral",
 
     "startIntroPart": "Kolechia borders five other countries, a lake with Antegria and Obristan, and the easternmost ocean. Kolechia is the largest of the three countries seen in their entirety on the map.",
     "declaringWar": "You have been destroy.",
@@ -34,17 +34,17 @@
     "neutralHello": "Hello.",
     "hateHello": "So what now?",
     "tradeRequest": "Can I interest you in this deal?",
-    "unique": "MONGOL_TERROR",
+    "uniques": ["[-60]% maintenance cost for buildings [in all non-occupied cities]"],
     "outerColor": [75, 0, 130],
     "innerColor": [218, 165, 32],
     "cities": ["Yurko City","Vedor","West Grestin"]
   },
   {
     "name": "Obristan",
-    "leaderName": "Neutral Party of Obristan",
-    "adjective": "Obristan",
+    "leaderName": "Posadist Party of Obristan",
+    "adjective": "Obristani",
     "startBias": ["Tundra"],
-    "preferredVictoryType": "Cultural",
+    "preferredVictoryType": "Neutral",
 
     "startIntroPart": "Obristan is the northernmost country on the map in the rulebook. It borders a lake with Antegria and Kolechia.",
     "declaringWar": "Obristan above all.",
@@ -54,7 +54,7 @@
     "neutralHello": "Greetings.",
     "hateHello": "Oh, it's you.",
     "tradeRequest": "Can I interest you in this deal?",
-    "unique": "RIVER_WARLORD",
+    "uniques": ["[+250]% Culture cost of natural border growth [in all non-occupied cities]"],
     "outerColor": [128, 0, 0],
     "innerColor": [184, 134, 11],
     "cities": ["Skal","Lorndaz","Mergerous"]
@@ -102,9 +102,9 @@
   {
     "name": "United Federation",
     "leaderName": "The United Social-Democratic Federation Party",
-    "adjective": "United Federation",
-    "startBias": ["Coast"],
-    "preferredVictoryType": "Scientific",
+    "adjective": "United and also Federative",
+    "startBias": ["Grassland"],
+    "preferredVictoryType": "Diplomatic",
 
     "startIntroPart1": "The United Federation (sometimes shortened to United Fed.) is a country to the west of Arstotzka. It is one of the four countries that do not border Arstotzka on the game map. Entrants from the United Federation are identified by a blue passport with a silver emblem on the front. A polio outbreak in the United Federation on day 25 causes Arstotzka to require an up-to-date polio vaccination from all entrants since day 26.",
     "startIntroPart2": "As with the other countries, not much background information is given in the game. An ex-inspector on day 18 explains that they used to deny most entrants when they worked at the border in the United Federation, and that the country now uses computers for processing entrants. The game does not provide enough information to compare the statement to the level of technology in other countries.",
@@ -114,7 +114,7 @@
     "neutralHello": "Good morning!",
     "hateHello": "What do you want?",
     "tradeRequest": "Can I interest you in this deal?",
-    "unique": "MANIFEST_DESTINY",
+    "uniques": ["Each city founded increases culture cost of policies [250]% less than normal"],
     "outerColor": [0, 0, 205],
     "innerColor": [240, 248, 255],
     "cities": ["Great Rapid","Shingleton","Korista City"]
@@ -122,7 +122,7 @@
   {
     "name": "Impor",
     "leaderName": "National Party of Impor",
-    "adjective": "Impor",
+    "adjective": "Imporial",
     "startBias": ["Hills"],
     "preferredVictoryType": "Cultural",
 
@@ -134,7 +134,7 @@
     "neutralHello": "Want a trade deal?",
     "hateHello": "We have imposed sanctions on you.",
     "tradeRequest": "Can I interest you in this deal?",
-    "unique": "SCHOLARS_OF_THE_JADE_HALL",
+    "uniques": ["[+250]% [Gold] from Trade Routes"],
     "outerColor": [178, 34, 34],
     "innerColor": [255, 215, 0],
     "cities": ["Enkyo","Haihan","Tsunkeido"]
